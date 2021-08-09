@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "410988827946",
+    "project_id": "howibook-a46f7",
+    "storage_bucket": "howibook-a46f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410988827946:android:070df8b6ec8b52500d3a53",
+        "android_client_info": {
+          "package_name": "com.example.howibookinit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410988827946-eviva54n3o0a3i7hcfjsaiknk117vg6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMGxXqexXC68FNXoujFriaypEsqgRxuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410988827946-eviva54n3o0a3i7hcfjsaiknk117vg6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

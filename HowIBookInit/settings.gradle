@@ -1,0 +1,2 @@
+rootProject.name = "HowIBookInit"
+include ':app'

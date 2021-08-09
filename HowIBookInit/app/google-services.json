@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "410988827946",
-    "project_id": "howibook-a46f7",
-    "storage_bucket": "howibook-a46f7.appspot.com"
+    "project_number": "817840581054",
+    "project_id": "howibookinit-1915b",
+    "storage_bucket": "howibookinit-1915b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:410988827946:android:070df8b6ec8b52500d3a53",
+        "mobilesdk_app_id": "1:817840581054:android:4dfe5e15e9a7343a06f1ef",
         "android_client_info": {
           "package_name": "com.example.howibookinit"
         }
       },
       "oauth_client": [
         {
-          "client_id": "410988827946-eviva54n3o0a3i7hcfjsaiknk117vg6a.apps.googleusercontent.com",
+          "client_id": "817840581054-v5dplupm7kkgpd0lhhsqrh2ig62e2i6p.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBVMGxXqexXC68FNXoujFriaypEsqgRxuw"
+          "current_key": "AIzaSyAfpqMgEB92anruzy49xMHzybufFh_ZqsQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "410988827946-eviva54n3o0a3i7hcfjsaiknk117vg6a.apps.googleusercontent.com",
+              "client_id": "817840581054-v5dplupm7kkgpd0lhhsqrh2ig62e2i6p.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -4,6 +4,9 @@
 
 프로젝트 인원 1명 - 👨 badasea
 
+![image](https://user-images.githubusercontent.com/57929751/144806280-2703abe4-3216-49b1-a6d2-0a376da6587b.png)
+![image](https://user-images.githubusercontent.com/57929751/144806314-282e77cf-c775-44b1-b4f2-0826f14b949c.png)
+
 
 # 📌 요구 사항 분석
 
@@ -20,6 +23,7 @@
 좋아요, 댓글 알림 기능
 
 팔로우 기능
+![144806280-2703abe4-3216-49b1-a6d2-0a376da6587b](https://user-images.githubusercontent.com/57929751/144806365-f8c93619-d431-41d6-82b6-c9a66ab4d659.png)
 
 DM 기능
 

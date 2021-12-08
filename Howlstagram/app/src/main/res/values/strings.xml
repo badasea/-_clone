@@ -54,15 +54,4 @@
     <item name="Visible" type="id" />
     <item name="masked" type="id" />
 
-    <!-- Base application theme   -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here       -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-
-    <style name="ButtonStyle" parent="Widget.AppCompat.Button.Colored">
-        <item name="colorButtonNormal">@color/colorWhite</item>
-    </style>
 </resources>

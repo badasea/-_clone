@@ -10,7 +10,7 @@
 <img src="https://user-images.githubusercontent.com/57929751/144806280-2703abe4-3216-49b1-a6d2-0a376da6587b.png" width="30%" height="30%" >
 <img src="https://user-images.githubusercontent.com/57929751/144806314-282e77cf-c775-44b1-b4f2-0826f14b949c.png" width="30%" height="30%" >
 
-<img src="https://user-images.githubusercontent.com/57929751/145173013-94c5a194-42d2-45a5-9f72-229b7b47f6cc.png" width="30%" height="30%" >
+<img src="https://user-images.githubusercontent.com/57929751/145186480-49229bde-4959-4a13-a495-bafbebc4d109.png" width="30%" height="30%" >
 
 # 📌 요구 사항 분석
 

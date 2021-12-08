@@ -114,5 +114,6 @@
             android:text="@string/signin_facebook"
             android:textColor="@color/colorWhite" />
 
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

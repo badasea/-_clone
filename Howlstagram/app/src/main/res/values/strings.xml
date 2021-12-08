@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Bada_stagram</string>
-    <string name="facebook_app_id">FaceBook App Key</string>
-    <string name="fb_login_protocol_scheme">fbFaceBook</string>
+    <string name="app_name">Badastagram</string>
+    <string name="facebook_app_id">307447648058971</string>
+    <string name="fb_login_protocol_scheme">fb307447648058971</string>
     <!-- Sign Up   -->
     <string name="email">Email</string>
     <string name="password">Password</string>

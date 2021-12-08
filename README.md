@@ -7,10 +7,11 @@
 # 📌 화면 정의
 
 
-<img src="https://user-images.githubusercontent.com/57929751/144806280-2703abe4-3216-49b1-a6d2-0a376da6587b.png" width="30%" height="30%" >
-<img src="https://user-images.githubusercontent.com/57929751/144806314-282e77cf-c775-44b1-b4f2-0826f14b949c.png" width="30%" height="30%" >
 
 <img src="https://user-images.githubusercontent.com/57929751/145186480-49229bde-4959-4a13-a495-bafbebc4d109.png" width="30%" height="30%" >
+<img src="https://user-images.githubusercontent.com/57929751/145274662-c938d7e5-e33b-49db-a27f-f16aa465ba8f.png" width="30%" height="30%" >
+<img src="https://user-images.githubusercontent.com/57929751/145275094-59540f31-8647-4b17-a927-eeda587d42d4.png" width="30%" height="30%" >
+
 
 # 📌 요구 사항 분석
 

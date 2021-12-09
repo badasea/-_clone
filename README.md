@@ -1,6 +1,5 @@
 # 🔥🔥🔥 인스타그램_클론_코틀린
 
-2021_12_06 ~ 
 
 프로젝트 인원 1명 - 👨 badasea
 
@@ -10,7 +9,7 @@
 
 <img src="https://user-images.githubusercontent.com/57929751/145186480-49229bde-4959-4a13-a495-bafbebc4d109.png" width="30%" height="30%" >
 <img src="https://user-images.githubusercontent.com/57929751/145274662-c938d7e5-e33b-49db-a27f-f16aa465ba8f.png" width="30%" height="30%" >
-<img src="https://user-images.githubusercontent.com/57929751/145275094-59540f31-8647-4b17-a927-eeda587d42d4.png" width="30%" height="30%" >
+<img src="https://user-images.githubusercontent.com/57929751/145456870-be3aac54-3c8e-4f9e-9a77-7b683a692f9f.png" width="30%" height="30%" >
 
 
 # 📌 요구 사항 분석
@@ -40,7 +39,7 @@ DM 기능
 - [x]  로그인 기능
 - [x]  회원 가입 기능
 - [x]  페이스북앱 연동 기능
-- [ ]  게시물(이미지) 등록 기능
+- [x]  게시물(이미지) 등록 기능
 - [ ]  메인 화면 프레그먼트 구성
 - [ ]  마이페이지 화면 프레그먼트 구성
 - [ ]  좋아요 기능

@@ -35,10 +35,11 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="8dp">
+
         <ImageView
+            android:id="@+id/detailviewitem_favorite_imageview"
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:id="@+id/detailviewitem_favorite_imageview"
             app:srcCompat="@drawable/ic_favorite_border" />
 
         <ImageView

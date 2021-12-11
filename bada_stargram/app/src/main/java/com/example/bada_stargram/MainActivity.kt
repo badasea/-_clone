@@ -18,8 +18,8 @@ import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
+    val PICK_PROFILE_FROM_ALBUM = 10
 
-    @RequiresApi(Build.VERSION_CODES.M)
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_home -> {
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
             }
             R.id.action_account -> {
                 val userFragment = UserFragment()
-                val uid = FirebaseAuth.getInstance().currentUser!!.uid
+                val uid = FirebaseAuth.getInstance().currentUser?.uid
                 val bundle = Bundle()
                 bundle.putString("destinationUid", uid)
                 userFragment.arguments = bundle
@@ -73,6 +73,7 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         setContentView(R.layout.activity_main)
         bottom_navigation.setOnNavigationItemSelectedListener(this)
         ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE), 1)
+        bottom_navigation.selectedItemId = R.id.action_home
 
     }
 }

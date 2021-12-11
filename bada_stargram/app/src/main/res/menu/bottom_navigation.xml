@@ -15,7 +15,7 @@
         andorid:id="@+id/action_add_photo"
         andorid:enabled="true"
         andorid:icon="@drawable/ic_add_a_photo"
-        andorid:title="@string/gallery" />
+        andorid:title="@string/upload_image" />
     <item
         andorid:id="@+id/action_favorite_alarm"
         andorid:enabled="true"

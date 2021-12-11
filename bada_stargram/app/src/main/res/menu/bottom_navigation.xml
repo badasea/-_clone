@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:andorid="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        andorid:id="@+id/action_home"
+        andorid:enabled="true"
+        andorid:icon="@drawable/ic_home"
+        andorid:title="@string/home" />
+    <item
+        andorid:id="@+id/action_search"
+        andorid:enabled="true"
+        andorid:icon="@drawable/ic_search"
+        andorid:title="@string/search" />
+    <item
+        andorid:id="@+id/action_add_photo"
+        andorid:enabled="true"
+        andorid:icon="@drawable/ic_add_a_photo"
+        andorid:title="@string/gallery" />
+    <item
+        andorid:id="@+id/action_favorite_alarm"
+        andorid:enabled="true"
+        andorid:icon="@drawable/ic_favorite_border"
+        andorid:title="@string/favorite" />
+    <item
+        andorid:id="@+id/action_account"
+        andorid:enabled="true"
+        andorid:icon="@drawable/ic_account"
+        andorid:title="@string/account" />
+</menu>

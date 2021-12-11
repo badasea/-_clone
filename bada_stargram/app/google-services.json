@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "404065548294",
+    "project_id": "bada-stargram",
+    "storage_bucket": "bada-stargram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404065548294:android:c859e8278f6acdbd8b6b87",
+        "android_client_info": {
+          "package_name": "com.example.bada_stargram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404065548294-1aqjrtdi2q01h0g63ngjgreq45o9u1ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_yGl6fuVe2ZEwKDmHN6WhXtNEpX4wmM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404065548294-1aqjrtdi2q01h0g63ngjgreq45o9u1ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -83,7 +83,7 @@ class AddPhotoActivity: AppCompatActivity() {
 
             firestore?.collection("images")?.document()?.set(contentDTO)
 
-            setResult(Activity.RESULT_OK)
+            setResult(RESULT_OK)
             finish()
         }
             ?.addOnFailureListener{

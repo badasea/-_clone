@@ -17,11 +17,10 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ListenerRegistration
 
 class GridFragment:Fragment() {
-    var imagesSnapshot : ListenerRegistration? = null
-    var mainView : View? = null
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-    savedInstanceState: Bundle?): View? {
+    var mainView: View? = null
+    var imagesSnapshot  : ListenerRegistration? = null
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         mainView = inflater.inflate(R.layout.fragment_grid, container, false)
 
         return mainView

@@ -61,3 +61,5 @@ DB - 파이어 베이스
 개발 OS 환경 - 윈도우10, Andorid 11
 
 형상 관리 - Github
+
+디자인 - Pigma

@@ -3,11 +3,11 @@
 
 프로젝트 인원 1명 - 👨 badasea
 
-# 📌 화면 정의
+# 📱 화면 정의
 
 
 
-<img src="https://user-images.githubusercontent.com/57929751/145186480-49229bde-4959-4a13-a495-bafbebc4d109.png" width="40%" height="40%" >
+<img src="https://user-images.githubusercontent.com/57929751/145724692-5ed0025f-05e3-45bb-86b9-14cebb4899cf.png" width="40%" height="40%" >
 <img src="https://user-images.githubusercontent.com/57929751/145724550-7e8474f6-56aa-4b69-b46e-0f0626c003c8.png" width="40%" height="40%" >
 <img src="https://user-images.githubusercontent.com/57929751/145724554-fd9ecf7c-1d61-4b78-9062-6808875ac3b9.png" width="40%" height="40%" >
 
@@ -19,7 +19,13 @@
 
 회원 가입 기능
 
+파이어 베이스 연동 기능
+
+구글 연동 기능 
+
 페이스북앱 연동 기능
+
+게시물 출력 기능
 
 게시물(이미지) 등록 기능
 
@@ -38,9 +44,11 @@
 
 - [x]  로그인 기능
 - [x]  회원 가입 기능
+- [x]  파이어 베이스 연동 기능
 - [x]  구글 계정 연동 기능
 - [x]  페이스북앱 및 계정 연동 기능
 - [x]  게시물(이미지) 등록 기능
+- [x]  게시물 출력 기능
 - [x]  메인 화면 프레그먼트 구성
 - [x]  마이페이지 화면 프레그먼트 구성
 - [x]  좋아요 기능
@@ -63,4 +71,4 @@ DB - 파이어 베이스
 
 형상 관리 - Github
 
-디자인 - Pigma
+Icon 디자인 - Pigma

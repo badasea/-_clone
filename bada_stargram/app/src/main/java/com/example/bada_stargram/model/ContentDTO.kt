@@ -1,4 +1,4 @@
-package com.example.howlstagram.model
+package com.example.bada_stargram.model
 
 import java.util.HashMap
 

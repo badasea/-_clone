@@ -22,14 +22,6 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/toolbar_title_image"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_centerInParent="true"
-                android:layout_margin="3dp"
-                android:src="@drawable/logo_title" />
-
-            <ImageView
                 android:id="@+id/toolbar_btn_back"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
@@ -49,8 +41,42 @@
                 android:textSize="16sp"
                 android:visibility="gone"
                 android:layout_toRightOf="@id/toolbar_btn_back" />
-        </RelativeLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginLeft="8dp">
+
+                <ImageView
+                    android:id="@+id/toolbar_title_image"
+                    android:layout_width="296dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:src="@drawable/logo_title" />
+
+                <ImageView
+                    android:id="@+id/detailviewitem_comment_imageview"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:srcCompat="@drawable/ic_add_a_photo" />
+
+                <ImageView
+                    android:id="@+id/detailviewitem_favorite_imageview"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:srcCompat="@drawable/ic_favorite_border" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:srcCompat="@drawable/ic_dm" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
@@ -69,9 +95,9 @@
         android:visibility="gone" />
 
     <FrameLayout
+        android:id="@+id/main_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/main_content"
         android:layout_above="@id/bottom_navigation"
         android:layout_below="@id/toolbar_division" />
 

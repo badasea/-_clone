@@ -7,9 +7,10 @@
 
 
 
-<img src="https://user-images.githubusercontent.com/57929751/145186480-49229bde-4959-4a13-a495-bafbebc4d109.png" width="30%" height="30%" >
-<img src="https://user-images.githubusercontent.com/57929751/145274662-c938d7e5-e33b-49db-a27f-f16aa465ba8f.png" width="30%" height="30%" >
-<img src="https://user-images.githubusercontent.com/57929751/145456870-be3aac54-3c8e-4f9e-9a77-7b683a692f9f.png" width="30%" height="30%" >
+<img src="https://user-images.githubusercontent.com/57929751/145186480-49229bde-4959-4a13-a495-bafbebc4d109.png" width="40%" height="40%" >
+<img src="https://user-images.githubusercontent.com/57929751/145724550-7e8474f6-56aa-4b69-b46e-0f0626c003c8.png" width="40%" height="40%" >
+<img src="https://user-images.githubusercontent.com/57929751/145724554-fd9ecf7c-1d61-4b78-9062-6808875ac3b9.png" width="40%" height="40%" >
+
 
 
 # 📌 요구 사항 분석

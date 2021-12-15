@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.bada_stargram.R
+import com.example.bada_stargram.model.AlarmDTO
 import com.example.bada_stargram.model.ContentDTO
 import com.example.bada_stargram.model.FollowDTO
 import com.google.firebase.auth.FirebaseAuth
@@ -103,6 +104,7 @@ class DetailViewFragment : Fragment() {
             viewholder.detailviewitem_comment_imageview.setOnClickListener { v ->
                 var intent = Intent(v.context, CommentActivity::class.java)
                 intent.putExtra("contentUid",contentUidList[position])
+                intent.putExtra("destinationUid", contentDTOs[position].uid)
                 startActivity(intent)
             }
         }
@@ -121,12 +123,22 @@ class DetailViewFragment : Fragment() {
                 } else {
                     contentDTO?.favoriteCount = contentDTO?.favoriteCount!! + 1
                     contentDTO?.favorites[uid] = true
-                    //favoriteAlarm(contentDTOs[position].uid!!)
+                    favoriteAlarm(contentDTOs[position].uid!!)
                 }
                 transaction.set(tsDoc, contentDTO)
             }
         }
 //        Collections.reverse(contentDTOs)
 //        Collections.reverse(contentUidList)
+    }
+    fun favoriteAlarm(destinationUid: String) {
+        val alarmDTO = AlarmDTO()
+        alarmDTO.destinationUid = destinationUid
+        alarmDTO.userId = FirebaseAuth.getInstance().currentUser?.email
+        alarmDTO.uid = FirebaseAuth.getInstance().currentUser?.uid
+        alarmDTO.kind = 0
+        alarmDTO.timestamp = System.currentTimeMillis()
+
+        FirebaseFirestore.getInstance().collection("alarms").document().set(alarmDTO)
     }
 }

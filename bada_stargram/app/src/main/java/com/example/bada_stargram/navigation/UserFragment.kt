@@ -20,8 +20,10 @@ import com.bumptech.glide.request.RequestOptions
 import com.example.bada_stargram.LoginActivity
 import com.example.bada_stargram.MainActivity
 import com.example.bada_stargram.R
+import com.example.bada_stargram.model.AlarmDTO
 import com.example.bada_stargram.model.ContentDTO
 import com.example.bada_stargram.model.FollowDTO
+import com.google.api.Billing
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_main.*
@@ -86,6 +88,15 @@ class UserFragment : Fragment(){
         getFolloerAndFollowing()
         return fragmentView
     }
+    fun followerAlarm(destinationUid: String) {
+        var alarmDTO = AlarmDTO()
+        alarmDTO.destinationUid = destinationUid
+        alarmDTO.uid = FirebaseAuth.getInstance().currentUser?.uid
+        alarmDTO.userId = FirebaseAuth.getInstance().currentUser?.email
+        alarmDTO.kind = 2
+        alarmDTO.timestamp = System.currentTimeMillis()
+        FirebaseFirestore.getInstance().collection("alarms").document().set(alarmDTO)
+    }
     fun getFolloerAndFollowing(){
         firestore?.collection("users")?.document(uid!!)?.addSnapshotListener { documentSnapshot, firebaseFirestoreException ->
             if (documentSnapshot==null) return@addSnapshotListener
@@ -123,6 +134,7 @@ class UserFragment : Fragment(){
                 followDTO = FollowDTO()
                 followDTO.followingCount = 1
                 followDTO.followings[uid!!] = true
+                followerAlarm(uid!!)
 
                 transaction.set(tsDocFollowing, followDTO)
                 return@runTransaction
@@ -138,6 +150,7 @@ class UserFragment : Fragment(){
                 // It remove following third person when a third person not follow me
                 followDTO?.followingCount = followDTO?.followingCount + 1
                 followDTO?.followings[uid!!] = true
+                followerAlarm(uid!!)
             }
             transaction.set(tsDocFollowing, followDTO)
             return@runTransaction

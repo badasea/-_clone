@@ -19,9 +19,11 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.messaging.FirebaseMessaging
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.UploadTask
 import kotlinx.android.synthetic.main.activity_main.*
+
 
 class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
     val PICK_PROFILE_FROM_ALBUM = 10
@@ -87,6 +89,16 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         toolbar_title_image.visibility = View.VISIBLE
         toolbar_btn_back.visibility = View.GONE
         toolbar_username.visibility = View.GONE
+    }
+    fun registerPushToken(){
+        FirebaseMessaging.getInstance().token.addOnCompleteListener {
+            task ->
+            var token = task.result
+            var uid = FirebaseAuth.getInstance().currentUser?.uid
+            var map = mutableMapOf<String,Any>()
+            map["pushtoken"] = token!!
+            FirebaseFirestore.getInstance().collection("pushtokens").document(uid!!).set(map)
+        }
     }
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
 

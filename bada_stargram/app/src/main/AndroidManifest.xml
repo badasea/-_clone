@@ -46,6 +46,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".navigation.AddPhotoActivity"></activity>
+        <activity android:name=".navigation.CommentActivity"></activity>
+
+        <!--안드로이드 8.0이상 푸시 처리 추가 코드-->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/push_icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
 
     </application>
 

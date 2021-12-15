@@ -31,7 +31,7 @@
         android:orientation="horizontal" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/comment_recuclerview"
+        android:id="@+id/comment_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar_division"
@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/comment_btn_send"
-        android:layout_below="@id/comment_recuclerview"
+        android:layout_below="@id/comment_recyclerview"
         android:layout_margin="10dp"
         android:text="@string/send"
         android:theme="@style/ButtonStyle"
@@ -52,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/comment_edit_message"
-        android:layout_below="@id/comment_recuclerview"
+        android:layout_below="@id/comment_recyclerview"
         android:layout_margin="10dp"
         android:layout_toLeftOf="@id/comment_btn_send" />
 
